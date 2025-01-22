@@ -3,4 +3,3 @@ __pycache__/
 data/
 mlruns_good/
 models/
-plots/confusion_llm.png
