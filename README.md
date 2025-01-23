@@ -42,7 +42,7 @@ Aggregated news, market features, and sentiment features are combined and passed
 ![close_price](./plots/output1.png)
 
 **TODO**: 
-+ There're signs of overfitting. Need to add regularization, maybe simplify the model. 
++ There're signs of overfitting (especially in the latest runs). Need to add regularization, maybe simplify the model. 
 + Noise in the data: some features could introduce noise. 
 + News from previous days could affect the predictions during the following days, this should be taken care of. 
 + Try different losses: Huber, MAE
