@@ -41,6 +41,13 @@ Aggregated news, market features, and sentiment features are combined and passed
 
 ![close_price](./plots/output1.png)
 
+**TODO**: 
++ There're signs of overfitting. Need to add regularization, maybe simplify the model. 
++ Noise in the data: some features could introduce noise. 
++ News from previous days could affect the predictions during the following days, this should be taken care of. 
++ Try different losses: Huber, MAE
++ Maybe the target values (close prices) should be denoised, e.g., using moving average prices as targets. + Check the target data again. 
+
 
 # Aspect-based sentiment models for financial documents
     
