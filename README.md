@@ -2,7 +2,7 @@
 
 ### Beware, this is work in progress...
 
-Repo with several pet projects related to market predictions.
+Repo with several pet projects (mostly drafts) related to market-related predictions.
 
 
 # Predict Close price 
@@ -12,7 +12,7 @@ Repo with several pet projects related to market predictions.
 + [predict_close_price](./predict_close_price) includes small experiments with data from [Kaggle Stock Market Prediction and Sentimental Analysis
 ](https://www.kaggle.com/competitions/stock-market-prediction-and-sentimental-analysis/overview). 
 
-+ [experiments](./experiments) has simple baseline models which are predicting market movement using only text data and CNN/RNN models. 
++ [experiments](./experiments) has simple baseline models which are predicting market movement using only text data and CNN/RNN models.  
 
 ### Market Features:
 
