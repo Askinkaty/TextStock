@@ -48,7 +48,6 @@ Aggregated news, market features, and sentiment features are combined and passed
 + Try different losses: Huber, MAE
 + Maybe the target values (close prices) should be denoised, e.g., using moving average prices as targets. + Check the target data again. 
 
-
 # Aspect-based sentiment models for financial documents
     
 Get models for [aspect](https://huggingface.co/Askinkaty/setfit-finance-aspect) and [polarity](https://huggingface.co/Askinkaty/setfit-finance-polarity) in HuggingFace.
@@ -107,9 +106,10 @@ headquartered_in       0.99      0.73      0.84       100
 
 # Extracting information from financial reports with RAG
 
-[rag](./rag) directory has two toy implementations of agent using LangChain (with LangGraph and without). 
-The task of the agent is to provide information about Amazon in financial reports (transcripts from [SEC](https://www.sec.gov/)).
+The [rag](./rag) contains two toy implementations of an agent using LangChain (with and without LangGraph).
+The agent's task is to provide information about Amazon from financial reports (transcripts from [SEC](https://www.sec.gov/)).
 
-Agent has only 2 tools at the moment:
-+ Toy vector database of split documents
-+ Sentiment analysis tool (see ABSA model above).
+Currently, the agent has only two tools:
+
++ A toy vector database of split documents.
++ A sentiment analysis tool (see the ABSA model above).
