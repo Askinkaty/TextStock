@@ -64,7 +64,7 @@ SetFit models fine-tuned using part of [SEntFiN-v1.1.csv](https://www.kaggle.com
 # Predicting relations in financial documents
 
 PEFT fine-tuning of Llama-3.2-1B-Instruct model using [REFinD](https://refind-re.github.io/) dataset.  I'm using only 16
-classes (aka relations), only 80-100 examples per each class. 
+classes (aka relations), 80-100 examples per each class. 
 
 + Get the model [here](https://huggingface.co/Askinkaty/llama-finance-relations).
 
@@ -108,7 +108,7 @@ headquartered_in       0.99      0.73      0.84       100
 # Extracting information from financial reports with RAG
 
 [rag](./rag) directory has two toy implementations of agent using LangChain (with LangGraph and without). 
-The task of the agent to provide provide information about Amazon in financial reports (transcripts from [SEC](https://www.sec.gov/)).
+The task of the agent is to provide information about Amazon in financial reports (transcripts from [SEC](https://www.sec.gov/)).
 
 Agent has only 2 tools at the moment:
 + Toy vector database of split documents
